@@ -1,0 +1,86 @@
+.film {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 900px;
+    height: 600px;
+    background-color: #b1b1b1;
+    z-index: 888;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.film_inner {
+    position: relative;
+}
+
+.show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+.unShow {
+    display: none;
+}
+
+.back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    padding-top: 200px;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(0, 0, 0, 0);
+    z-index: 9999;
+    transition: all 0.1s ease-in-out;
+}
+
+.back:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    display: flex;
+    justify-content: left;
+}
+
+.poster {
+    padding: 10px;
+    margin-right: 15px;
+    border-right: #545454 1px solid;
+    border-radius: 10px;
+}
+
+.poster img {
+    border-radius: 8px;
+}
+
+.age {
+    width: 20px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 9px;
+    padding-left: 1px;
+    color: black;
+    margin: 10px 0;
+}
+
+.overview {
+    max-width: 450px;
+    margin-left: 10px;
+}
+
+.info {
+    border-bottom: #545454 1px solid;
+    margin-bottom: 10px;
+    width:610px;
+}
+
